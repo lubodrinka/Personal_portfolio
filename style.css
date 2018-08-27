@@ -1,0 +1,116 @@
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.target {
+  padding: 5px;
+}
+
+.fontstyle {
+  font-family: Merriweather, serif;
+  color: purple;
+  font-size: 18px;
+}
+
+.fontstyle2 {
+  font-family: Merriweather, serif;
+  color: midnightblue;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.shadowspecial1 {
+  text-shadow: -1px -3PX 3PX #FFF,
+  -2px -4PX 3PX #AAA,
+  -3px -5px 4px #666,
+  -4px -6px 6px #000,
+  -4px -6px 6px #333;
+}
+
+.borders {
+  border: 1px solid darkslateblue
+}
+
+
+.shadowspecial2 {
+  text-shadow: 1px 1px rgba(0, 64, 255, 1),
+  2px 2px rgba(0, 64, 255, 1),
+  3px 3px rgba(0, 64, 255, 1),
+  4px 4px rgba(0, 64, 255, 1);
+}
+
+
+
+.shadowbox {
+  border: 0px solid whitesmoke;
+  -webkit-box-shadow: 5px 5px 52px 29px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 5px 5px 52px 29px rgba(0, 0, 0, 1);
+  box-shadow: 5px 5px 52px 29px rgba(0, 0, 0, 1);
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: url("http://livewallpaperswide.com/wp-content/uploads/2016/11/1480488437_970_background-image.jpg")
+}
+
+.forminvers{
+ background-color: #000;
+color: floralwhite;
+}
+form{
+margin-left: -30px;
+width:100%;
+ height:100%;
+ bottom:0;
+ position:absolute;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+
+    max-width: 250px;
+  max-height: 200px
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.btn {
+  background-color: black;
+}
+
+.gradienttext {
+   color: transparent;background: linear-gradient(purple, midnightblue); 
+  background: -webkit-linear-gradient(purple, midnightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar{
+
+ opacity:0.55;
+
+
+}
+.menuitems{ text-shadow: 1px 2px 1px black;opacity:1; font-size: 200%;
+  font-stretch: ultra-expanded;
+color:#2962FF;}
+a{text-shadow: 2px 2px 2px black;
+font-size: 150%;opacity:0.9;color:#7C4DFF;
+}
+.navbar-brand{
+   font-family: 'Monsieur La Doulaise';
+font-size: 300%;
+word-spacing:1em;
+   letter-spacing: 0.35em;
+  
+}
