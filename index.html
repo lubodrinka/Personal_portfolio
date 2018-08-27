@@ -256,7 +256,7 @@
 
         <div class="w3-container fontstyle2" style="text-align:left">
 
-          <form class="w3-container forminvers" id="contactform">
+          <form class="w3-container forminvers" id="contactform" method="post">
             <p class="forminvers">
               <label for="fname forminvers">First Name</label>
               <input class="w3-input forminvers" type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -266,10 +266,13 @@
               <label for="lname forminvers">Last Name </label>
               <input class="w3-input forminvers" type="text" id="lname" name="lastname" placeholder="Your last name..">
             </p>
-
+ <p>
+              <label for="imail forminvers">Email </label>
+              <input class="w3-input forminvers" type="email" id="imail" name="mail" placeholder="Your email.." required="required">
+            </p>
             <p>
               <label for="subject forminvers">Subject</label>
-              <textarea rows="4" cols="30" class="w3-input forminvers" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <textarea rows="5" cols="30" class="w3-input forminvers" id="subject" name="subject" placeholder="Write something.." required="required"></textarea>
             </p>
 
             <input class="w3-inputvbtn btn-default forminvers " type="submit" value="Submit" id="submit">
@@ -314,8 +317,5 @@
 </div>
   </nav></div>
 </body>
-
-
-
 
 </html>
