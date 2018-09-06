@@ -1,653 +1,130 @@
-.<!DOCTYPE html>
 
-<html lang="en" class="<!DOCTYPE html>">
-
-
-
-<head>
-
-  <meta charset="UTF-8">
-
-  <title>website1</title>
-
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
-
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-  <link rel="stylesheet" href="style.css">
-
-  <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise" rel="stylesheet">
-
-  <script src='index.js'></script>
-
-</head>
-
-
-
-
-
-
-
-<body>
-
-
-  <nav class="navbar navbar-inverse">
-
-
-
-    <div class="navbar-header ">
-
-      <div class="navbar-brand">
-        <div id='myProfile'>My profile<i class="fa fa-free-code-camp"></i></div>
-      </div>
-
-
-
-
-
-      <ul class="nav navbar-nav-tabs">
-
-        <li class="active">
-
-          <a class="menuitems" href="#home1">Home</a>
-
-        </li>
-
-        <li>
-
-          <a class="menuitems" href="#about">about</a>
-
-        </li>
-
-        <li>
-
-          <a class="menuitems" href="#left-well">portfolio</a>
-
-        </li>
-
-      </ul>
-
-
-    </div>
-  </nav>
-
-  <main>
-
-    <div class="container-fluid">
-
-      <h3 class="text-center gradienttext" id="home1">home</h3>
-
-
-
-      <div class="row">
-
-        <div class="col-xs-6 ">
-
-          <h4 class="shadowspecial1 text-center fontstyle2">Code pen project</h4>
-
-
-
-          <div id="left-well">
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/pVeXgw" class="btn btn-default target fontstyle"
-              id="target1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.pVeXgw.small.19b20b56-3393-45e4-b6c2-d63ea5901f4b.png">
-
-              <p>IMDB Machine</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/yjbmyj" class="btn btn-default target fontstyle"
-              id="target2">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.yjbmyj.small.3fb81b1e-6d6e-4aa3-9bd1-18b7661aa89b.png">
-
-              <p>Weather APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/VxMgVp" class="btn btn-default target fontstyle"
-              id="target3">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.VxMgVp.small.778d1957-1455-4f4b-af59-6f7ef3db707d.png">
-
-              <p>Wiki searching APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/xjXoop" class="btn btn-default target fontstyle"
-              id="target4">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.xjXoop.small.4016d088-d457-4ea0-9d49-878b471fbc18.png">
-
-              <p>Twitch APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/YLJZyM" class="btn btn-default target fontstyle"
-              id="target5">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.YLJZyM.small.327f64fe-e6b7-4a31-a3b2-2a2c476a8526.png">
-
-              <p>Calculator APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.YLJZyM.small.327f64fe-e6b7-4a31-a3b2-2a2c476a8526.png"
-              class="btn btn-default target fontstyle" id="target6">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.ZoVpPa.small.7fb86e9d-d6e5-447c-aa31-16eb734dbf7c.png">
-
-              <p>Pomodoro APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/NMJWaY" class="btn btn-default target fontstyle"
-              id="target7">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.NMJWaY.small.e41aba25-0220-44f5-9daa-b9522becb984.png">
-
-              <p>Tic-tac-toe APP</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/vjMdMw" class="btn btn-default target fontstyle"
-              id="target8">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.vjMdMw.small.d90647d6-3da2-4252-a8a5-b1b21894c5e8.png">
-
-              <p>Simon game</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/wjLzPp" class="btn btn-default target fontstyle"
-              id="target8">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.wjLzPp.small.46471a16-2b6e-46d7-b722-fd89e0d22c2e.png">
-
-              <p>Leaderboard in Jquery</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/XYrOKQ" class="btn btn-default target fontstyle"
-              id="target8">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.wjLzPp.small.46471a16-2b6e-46d7-b722-fd89e0d22c2e.png">
-
-              <p>Leaderboard in REACT!</p>
-
-            </a>
-
-
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/debug/erqmRP" class="btn btn-default target fontstyle"
-              id="target9">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.erqmRP.small.0e6d02c1-aaaa-4acc-93f7-7c80b276739b.png">
-
-              <p>Recipe in Jqeury</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/PerVyx" class="btn btn-default target fontstyle"
-              id="target10">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.erqmRP.small.0e6d02c1-aaaa-4acc-93f7-7c80b276739b.png">
-
-              <p>Recipe in ReactJS!</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/ZRYrzv" class="btn btn-default target fontstyle"
-              id="target11">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.ZRYrzv.small.d97595c8-1a39-45d1-82bf-a271bf18dce2.png">
-
-              <p>Game of life React!</p>
-
-            </a>
-
-            <a target="_blank" href="https://codesandbox.io/s/pj1xv59o10" class="btn btn-default target fontstyle" id="target11">
-
-              <img src="https://drive.google.com/uc?export=download&id=1FvhmPjz3grk19YgeaWLL_H20fvBXlvv2">
-
-              <p>React Roguelike Dungeon Crawler</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/ZRXyWa" class="btn btn-default target fontstyle"
-              id="target11">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.ZRXyWa.small.7bfa3e41-001c-4d4f-89b5-6a0f76198986.png">
-
-              <p>Drum Machine</p>
-
-            </a>
-
-
-
-            <div id="AMP">
-
-              <H4 class="shadowspecial1 fontstyle2 text-center">APIs and Microservices Projects</H4>
-
-              <a target="_blank" href="https://electric-preface.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>Timestamp Microservice</p>
-
-              </a>
-
-              <a target="_blank" href="https://sugar-hunter.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>Request Header Parser Microservice</p>
-
-              </a>
-
-              <a target="_blank" href="https://humorous-circle.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>URL Shortener Microservice</p>
-
-              </a>
-
-              <a target="_blank" href="https://mint-society.glitch.me" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>Exercise Tracker</p>
-
-              </a>
-
-              <a target="_blank" href="https://amber-kite.glitch.me" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>File Metadata Microservice</p>
-
-              </a>
-
-            </div>
-
-
-
-            <div id="AMP">
-
-              <H4 class="shadowspecial1 fontstyle2 text-center">Information Security and Quality Assurance Projects</H4>
-
-              <a target="_blank" href="https://kaput-liquid.glitch.me" class="btn btn-default target fontstyle" id="target11">
-
-                <p>Metric Imperial Converter</p>
-
-              </a>
-
-              <a target="_blank" href="https://kindly-friday.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-                <p>Issue Tracker</p>
-
-              </a>
-
-              <a target="_blank" href="https://candle-trowel.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-                <p>Personal Library</p>
-
-              </a>
-
-              <a target="_blank" href="https://caramel-textbook.glitch.me" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>Stock Price Checker</p>
-
-              </a>
-
-              <a target="_blank" href="https://same-quit.glitch.me/" class="btn btn-default target fontstyle" id="target11">
-
-
-
-                <p>Anonymous Message Board</p>
-
-              </a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="col-xs-6  ">
-
-
-
-          <H4 class="shadowspecial1 fontstyle2 text-center">comma group</H4>
-
-          <div id="comma-well">
-
-            <a target="_blank" href="https://sites.google.com/site/ryderhelp/comma" class="btn btn-default target fontstyle"
-              id="targetb1">
-
-              <img src="https://drive.google.com/uc?export=download&id=1GB8olP-GYJbtuIzN7uJ3-wpPFkB2fXn_">
-
-              <p>comma</p>
-
-            </a>
-
-            <a target="_blank" href="http://commacheck.azurewebsites.net/" class="btn btn-default target fontstyle" id="targetb2">
-
-              <img src="http://commacheck.azurewebsites.net/images/webcomma.JPG">
-
-              <p>webcomma</p>
-
-            </a>
-
-            <a target="_blank" href="https://codepen.io/vanderdrilu/pen/rKyqxv" class="btn btn-default target fontstyle"
-              id="targetb2">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.rKyqxv.small.7fb2519a-7867-4dbf-a363-99a8a64192bf.png">
-
-              <p>Product Landing Page </p>
-
-            </a>
-
-          </div>
-
-
-
-          <h4 class="shadowspecial1 fontstyle2 text-center">
-
-            <p>rest</p>
-
-          </h4>
-
-          <div id="right-well target">
-
-
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://sites.google.com/site/ryderhelp/com-port-monitoring"
-              id="targetb4">
-
-              <img src="https://drive.google.com/uc?export=download&id=1x_o29Nag4EwVMMDAPv3lXz9uIv4Hc9uK">
-
-              <p>com port monitoring</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://sites.google.com/site/ryderhelp/home2"
-              id="targetb5">
-
-              <img src="https://drive.google.com/uc?export=download&id=1StLpsa5t-e3yVrTxuq36bmSKuzp_EFkO">
-
-              <p>ryder</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://sites.google.com/site/ryderhelp/dbb"
-              id="targetb3">
-
-              <img src="https://drive.google.com/uc?export=download&id=1GqkyAxB53ylEC0tfOC56jgX4GPMR9Jjc">
-
-              <p>SQL DB</p>
-
-            </a>
-
-            <H4 class="shadowspecial1 fontstyle2 text-center">D3 chart</H4>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/RJeLOO"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.RJeLOO.small.b5d4937c-29db-4121-aa67-1143fb89b151.png">
-
-              <p>D3: Bar Chart USA Debt</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/aKPRPp"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.aKPRPp.small.aa5699b8-16c9-40ff-b6a0-0bb042869344.png">
-
-              <p>D3: Scatter Plot</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/MXLYpQ"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.MXLYpQ.small.1bda6f5b-fa5c-4c03-90fc-2a831dca11ee.png">
-
-              <p>D3: Heat map</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/NzmoeX"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.NzmoeX.small.16075f36-46c8-41b0-b709-82dde5029bf7.png">
-
-              <p>D3: Choropleth Map</p>
-
-            </a>
-
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/vroBwY"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.vroBwY.small.bdf02593-f99f-4fc2-a79f-3fa392d92a4a.png">
-
-              <p>D3: Treemap Diagram</p>
-
-            </a>
-            <a target="_blank" class="btn btn-default target fontstyle" href="https://codepen.io/vanderdrilu/pen/xaELja"
-              id="targetc1">
-
-              <img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1879200.xaELja.small.afe63ecb-0b86-4105-b0c1-68b9e8aa26b2.png">
-
-              <p>D3: Force Directed Graph</p>
-
-            </a>
-          </div>
-
-        </div>
-
-
-
-
-
-        <br>
-
-        <div class="row" id="example1">
-
-          <div class="col-sm-6 centerimage fontstyle2">
-
-            <div class="container shadowspecial2 card center">
-
-
-
-              <br>
-              <aside>
-                <div>
-                  <img class=" shadowbox " src="https://drive.google.com/uc?export=download&id=1LUDJSA2Pq45x96J83k3e0cjNZPBhjgJU"
-                    alt="me">
-
-                  <h2 id="about" class="gradienttext"> -Autor- </h2>
-
-                  <b class="gradienttext">Ľubomír Drinka</b>
-                </div>
-              </aside>
-
-
-            </div>
-
-            <blockquote>
-
-
-
-              <p class="fontstyle2" style="text-align: left;  text-indent: 5%;">I started programming because of the
-                freezing monitoring that should never had to fall. I did it in the Autoit.
-
-                <br> I wanted the paper maintenance site to become electronic, none had the required iso output on the
-                printer, so through vb.net 2 years, it was a pity that Tomáš Hercog's series did not appear earlier.
-
-                <br> I discovered google.sites. I wanted to publish to download.com, technical support told me they
-                have
-                an oracle and need a direct link. I stopped avoiding the google disk, after half a year I found out
-                that
-                it is enough to remove the right
-
-                half of the url. I corrected one baccalaureate, missing many commas, thinking it should be programmed.
-                3
-                years.
-
-                <br>Payment system and password generation: "Did you know that gs cipher and MS are not compatible?"
-
-                <br> I visited codecon 2015, I find a azure leaflet about trial clouds. I have my own website App-page.
-                The Google have not understand why is advertising a page with no content even it's like Google !. I
-                have
-                a lot of work at work, I terminate
-
-                IT. At work, after 12 years, I was said I was going to end. I'm looking for a job in IT. So I'am
-                finished
-                the 6 of 6 freecodecamp certifications</p>
-
-            </blockquote>
-
-          </div>
-
-
-
-          <div class="col-sm-5 borders">
-
-            <div class="w3-container fontstyle2" style="text-align:left">
-
-              <form class="w3-container forminvers" id="contactform" method="post">
-
-                <p class="forminvers">
-
-                  <label for="fname forminvers">First Name</label>
-
-                  <input class="w3-input forminvers" type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                </p>
-
-
-
-                <p>
-
-                  <label for="lname forminvers">Last Name </label>
-
-                  <input class="w3-input forminvers" type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                </p>
-
-                <p>
-
-                  <label for="imail forminvers">Email </label>
-
-                  <input class="w3-input forminvers" type="email" id="imail" name="email" placeholder="Your email.."
-                    required="required">
-
-                </p>
-
-                <p>
-
-                  <label for="subject forminvers">Subject</label>
-
-                  <textarea rows="5" cols="30" class="w3-input forminvers" id="subject" name="subject" placeholder="Write something.."
-                    required="required"></textarea>
-
-                </p>
-
-                <input class="w3-inputvbtn btn-default forminvers " type="submit" value="Submit" id="submit">
-
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </main>
-
-  <nav class="navbar navbar-inverse navbar-fixed-bottom">
-
-
-
-    <div class="navbar navbar-header">
-
-      <ul class="nav navbar-nav-tabs ">
-
-        <li> <a target='_blank' class="" href="https://www.facebook.com/lubomir.drinka">
-
-            <button type="button" class="btn fa fa-facebook-square">FACEBOOK</button>
-
-          </a></li>
-
-        <li> <a target='_blank' class="" href="https://twitter.com/LubomirDrinka">
-
-            <button type="button" class="btn fa fa-twitter-square">TWITTER</button>
-
-          </a></li>
-
-        <li> <a target='_blank' class="" href="https://www.linkedin.com/in/%C4%BEubom%C3%ADr-drinka-3a44417b/">
-
-            <button type="button" class="btn fa fa-linkedin-square">Linkend-in</button>
-
-          </a></li>
-
-        <li> <a target='_blank' class="shadowbox" href="https://aboutme.google.com/u/0/?referer=gplus">
-
-            <button type="button" class="btn  fa fa-google-plus-square">Gplus</button>
-
-          </a></li>
-
-
-
-        <li> <a class="navbar-brand" href="#">My profile</a></li>
-
-
-
-        <li class="active">
-
-          <a class="menuitems" href="#home1">Home</a>
-
-        </li>
-
-        <li>
-
-          <a class="menuitems" href="#about">about</a>
-
-        </li>
-
-        <li>
-
-          <a class="menuitems" href="#left-well">portfolio</a>
-
-        </li>
-
-
-
-      </ul>
-
-    </div>
-
-  </nav>
-
-</body>
-
-</html>
+centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.target {
+  padding: 5px;
+}
+
+.fontstyle {
+  font-family: 'Lucida Sans', serif;
+  color: purple;
+  font-size: 18px;
+}
+
+.fontstyle2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+  color: rgb(159, 159, 184);
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+.shadowspecial1 {
+  text-shadow: 1px 1px black,
+}
+
+.borders {
+  border: 1px solid darkslateblue
+}
+
+.shadowbox {
+
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 1), 2px 2px 2px rgba(0, 0, 0, 1);
+  ;
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 1), 2px 2px 2px rgba(0, 0, 0, 1);
+  ;
+  box-shadow: box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  ;
+}
+
+#home1 {
+  text-shadow: 1px 1px 1px #2962FF
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: url("http://livewallpaperswide.com/wp-content/uploads/2016/11/1480488437_970_background-image.jpg")
+}
+
+.card {
+  background: black;
+}
+
+form {
+  margin-left: -30px;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+a img {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.btn {
+  background-color: black;
+}
+
+.gradienttext {
+  color: transparent;
+  background: linear-gradient(purple, midnightblue);
+  background: -webkit-linear-gradient(purple, midnightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar {
+  opacity: 0.55;
+}
+
+.menuitems {
+  text-shadow: 1px 2px 1px black;
+  opacity: 1;
+  font-size: 200%;
+  font-stretch: ultra-expanded;
+  color: #2962FF;
+}
+
+a {
+  text-shadow: 2px 2px 2px black;
+  font-size: 150%;
+  opacity: 0.9;
+  color: #7C4DFF;
+}
+
+a p {
+  word-wrap: break-word;
+  overflow: hidden;
+  max-width: 200px;
+  max-height: 120px;
+  margin: 5px;
+}
+
+#myProfile {
+  font-family: 'Monsieur La Doulaise';
+  font-size: 300%;
+  word-spacing: 1em;
+  letter-spacing: 0.35em;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: 300px 1fr
+    
+}
+blo
