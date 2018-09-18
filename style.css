@@ -1,15 +1,31 @@
 
-centerimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+.logo{
+  border: 1px solid floralwhite;
+  border-radius: 3px;
+max-width: 200px;
+  height: 50px;
+  padding: 2px;
 
+  
+}
+.logos{
+    margin-top: 2vh;
+    width: 80%;
+}
+#imgMe{
+  image-rendering: crisp-edges;
+  border-radius: 100%;
+  max-width: 80px;
+  max-height: 80px;
+}
 .target {
   padding: 5px;
 }
 
+input{
+  border: none;
+
+}
 .fontstyle {
   font-family: 'Lucida Sans', serif;
   color: purple;
@@ -53,18 +69,19 @@ body {
   background-image: url("http://livewallpaperswide.com/wp-content/uploads/2016/11/1480488437_970_background-image.jpg")
 }
 
-.card {
-  background: black;
-}
 
 form {
-  margin-left: -30px;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  position: absolute;
-}
+ margin: 0 auto;
+  width: 60%;
 
+}
+form p *{
+  display: flex;
+  align-content: flex-start
+}
+ul li {
+  display:inline;
+}
 a img {
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -72,6 +89,10 @@ a img {
   max-height: 200px;
 }
 
+button{
+  opacity: 1;
+  color: #7C4DFF;
+}
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
@@ -122,9 +143,9 @@ a p {
   letter-spacing: 0.35em;
 }
 
-aside {
+.card {
   display: grid;
-  grid-template-columns: 300px 1fr
-    
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5vh;
+  padding-top: 5vh;
 }
-blo
